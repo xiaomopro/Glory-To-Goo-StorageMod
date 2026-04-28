@@ -98,6 +98,11 @@ public const int EXTRA_ORE_STORAGE = 50;      // Crystals bonus
 public const int EXTRA_URANIUM_STORAGE = 25;   // Isotopes bonus
 public const int EXTRA_GAS_STORAGE = 25;       // Ore bonus
 ```
+## Uninstallation
+
+To remove the mod, simply delete the following file:
+From Glory To Goo/BepInEx/plugins/GloryToGooMod.dll
+> **Note:** This will not affect your save files.
 
 ##  License
 This project is dedicated to the public domain under the CC0 1.0 Universal license.
