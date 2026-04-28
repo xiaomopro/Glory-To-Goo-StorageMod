@@ -1,6 +1,6 @@
 # GloryToGoo Storage Mod
 
-A BepInEx plugin for **From Glory To Goo** that increases the storage capacity of the Factory building for Crystals, Ore, and Isotopes.
+A BepInEx plugin for **From Glory To Goo** that increases the storage capacity of the Factory building for Crystals, Ore, and Isotopes（Human faction）.
 
 > Game version: 0.3
 
