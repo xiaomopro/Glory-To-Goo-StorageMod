@@ -99,6 +99,10 @@ public const int EXTRA_URANIUM_STORAGE = 25;   // Isotopes bonus
 public const int EXTRA_GAS_STORAGE = 25;       // Ore bonus
 ```
 
-## License
+##License (Public Domain)
+This project is dedicated to the public domain under the CC0 1.0 Universal license.
 
-© 2026 xiaomopro. All rights reserved.
+Anyone can use, copy, modify, and distribute this software for any purpose, without any conditions.
+
+Full license text:
+https://creativecommons.org/publicdomain/zero/1.0/
