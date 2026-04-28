@@ -15,6 +15,8 @@ With this mod, each Factory building provides:
 - Ore storage: +35 (+25 extra)
 - Isotopes storage: +35 (+25 extra)
 
+However, the extra capacity added after demolishing a building will not be removed. I haven't made any fixes regarding this.
+
 ## Requirements
 
 - [BepInEx 6 IL2CPP BE](https://builds.bepinex.dev/projects/bepinex_be) (bleeding edge build for IL2CPP games)
@@ -23,10 +25,10 @@ With this mod, each Factory building provides:
 ## Installation
 
 1. Download and install **BepInEx 6 IL2CPP BE** into your game folder:
--From Glory To Goo/
--├── BepInEx/
--├── doorstop_config.ini
--└── winhttp.dll
+- From Glory To Goo/
+- ├── BepInEx/
+- ├── doorstop_config.ini
+- └── winhttp.dll
 
 2. Launch the game once and close it. This allows BepInEx to initialize and generate required files.
 
@@ -41,8 +43,8 @@ With this mod, each Factory building provides:
 To confirm the mod is working, check the BepInEx log file at:From Glory To Goo/BepInEx/LogOutput.log
 
 You should see lines like:
--[Info   :GloryToGoo Mod] GloryToGoo Mod loaded!
--[Info   :GloryToGoo Mod] Ore storage set to: 75
+- [Info   :GloryToGoo Mod] GloryToGoo Mod loaded!
+- [Info   :GloryToGoo Mod] Ore storage set to: 75
 
 ## Compatibility
 
@@ -63,7 +65,7 @@ Requirements:
 - Game installed with BepInEx initialized
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/GloryToGooStorageMod.git
+git clone https://github.com/xiaomopro/GloryToGooStorageMod.git
 cd GloryToGooStorageMod
 dotnet build GloryToGooMod.csproj
 ```
