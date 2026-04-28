@@ -23,10 +23,10 @@ With this mod, each Factory building provides:
 ## Installation
 
 1. Download and install **BepInEx 6 IL2CPP BE** into your game folder:
-From Glory To Goo/
-├── BepInEx/
-├── doorstop_config.ini
-└── winhttp.dll
+-From Glory To Goo/
+-├── BepInEx/
+-├── doorstop_config.ini
+-└── winhttp.dll
 
 2. Launch the game once and close it. This allows BepInEx to initialize and generate required files.
 
@@ -40,12 +40,13 @@ From Glory To Goo/
 
 To confirm the mod is working, check the BepInEx log file at:From Glory To Goo/BepInEx/LogOutput.log
 
-You should see lines like:[Info   :GloryToGoo Mod] GloryToGoo Mod loaded!
-                          [Info   :GloryToGoo Mod] Ore storage set to: 75
+You should see lines like:
+-[Info   :GloryToGoo Mod] GloryToGoo Mod loaded!
+-[Info   :GloryToGoo Mod] Ore storage set to: 75
 
 ## Compatibility
 
-- Works with all game modes (Survival, Campaign, Arcade)
+- Works with all game modes (The CAMPAIGN mode has not been tried yet)
 - Compatible with existing saves
 - Compatible with the official `unitConfig.json` mod system
 
